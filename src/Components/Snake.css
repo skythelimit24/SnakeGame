@@ -1,0 +1,41 @@
+.game-board {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    border: 2px solid #333;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .snake-segment {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #0f0;
+    border-radius: 50%;
+  }
+  
+  .food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    border-radius: 50%;
+  }
+  
+  .score {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f00;
+    font-size: 32px;
+  }
+  
